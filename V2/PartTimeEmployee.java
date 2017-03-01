@@ -14,19 +14,19 @@ public class PartTimeEmployee extends Employee{
 		weeklyHoursWorked=whw;
 		hourlyRate=hr;
 	}
+	// Mutators (Setters)
+	public void setWeeklyHoursWorked(double whw){
+		weeklyHoursWorked=whw;
+	}
+	public void setHourlyRate(double hr){
+		hourlyRate=hr;
+	}
 	// Accessors (Getters)
 	public double getWeeklyHoursWorked(){
 		return weeklyHoursWorked;
 	}
 	public double getHourlyRate(){
 		return hourlyRate;
-	}
-	// Mutators (Setters)
-	public void setWeeklyHoursWorked(double whw){
-		weeklyHoursWorked=whw;
-	}
-	public void setMailingList(double hr){
-		hourlyRate=hr;
 	}
 	// Methods
 	public double CalculateWeeklyPay(){

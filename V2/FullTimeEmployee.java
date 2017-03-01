@@ -1,7 +1,5 @@
 package v2;
-
 import java.text.NumberFormat;
-
 public class FullTimeEmployee extends Employee {
 
 	private double annualSalary;

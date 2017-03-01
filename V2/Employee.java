@@ -12,7 +12,7 @@ public class Employee {
 		firstName = "John";
 		lastName = "Doe";
 		startYear = 2017;
-		idNumber = createIDNumber();
+		idNumber = createIdNumber();
 		socialSecurityNumber = "XXXXXXXXX";
 		setSocial(socialSecurityNumber);
 		department = "Java";
@@ -28,7 +28,7 @@ public class Employee {
 		startYear = sY;
 		department = dep;
 		departmentCode = depCode;
-		idNumber = createIDNumber();	
+		idNumber = createIdNumber();	
 	}
 
 	// Mutators (Setters)
@@ -60,8 +60,8 @@ public class Employee {
 	public String getLastName(){
 		return lastName;
 	}	 
-	public String getIDnumber(){
-		return idNumber = createIDNumber();
+	public String getIdNumber(){
+		return idNumber = createIdNumber();
 	}	 
 	public String getSocial(){
 		return socialSecurityNumber;
@@ -77,7 +77,7 @@ public class Employee {
 	}
 	
 	// Format: FNinitialLNinitial-4RandomNum		 
-	private String createIDNumber(){
+	private String createIdNumber(){
 		Random randomNum = new Random();
 		int randomInt = randomNum.nextInt(9999);
 		String rNum = String.format("%04d", randomInt);

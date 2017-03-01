@@ -1,6 +1,6 @@
 package v2;
 
-import java.util.Currency;
+//import java.util.Currency;
 
 public class EmployeeTester {	
 	// Driver class
